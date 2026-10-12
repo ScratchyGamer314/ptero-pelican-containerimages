@@ -30,6 +30,9 @@ jobs:
           - 11
           - 17
           - 21
+          - 25
+          - 26
+          - 27
     steps:
       - name: Git checkout for Github repository workspace
         uses: actions/checkout@v4
@@ -53,7 +56,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           context: ./java-shenandoah
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64
           file: ./java-shenandoah/${{ matrix.tag }}/Dockerfile
           push: true
           tags: ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_${{ matrix.tag }}_shenandoah

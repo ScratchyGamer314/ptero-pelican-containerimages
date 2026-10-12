@@ -1,4 +1,4 @@
-FROM        python:3.13-rc-bullseye
+FROM        python:3.15-rc-slim
 
 LABEL       author="Auroa Online" maintainer="hello@auroa.cloud"
 LABEL       org.opencontainers.image.source="https://github.com/medaria/ptero-pelican-containerimages"
@@ -8,6 +8,7 @@ RUN         apt-get update \
             && apt-get -y install --no-install-recommends git gcc g++ ca-certificates dnsutils curl iproute2 ffmpeg procps locales \
             && apt-get clean \
             && rm -rf /var/lib/apt/lists/* \
+            && useradd -m -d /home/container container \
             && locale-gen en_US.UTF-8
 
 ENV         LC_ALL=en_US.UTF-8

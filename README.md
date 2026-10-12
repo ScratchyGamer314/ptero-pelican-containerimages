@@ -23,7 +23,7 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
 | [Java GraalVM](https://github.com/medaria/ptero-pelican-containerimages#java-graalvm-amd64arm64)                 | AMD64, ARM64        |
 | [Java Liberica](https://github.com/medaria/ptero-pelican-containerimages#java-liberica-amd64arm64)               | AMD64, ARM64        |
 | [Java OpenJ9](https://github.com/medaria/ptero-pelican-containerimages#java-openj9-amd64)                        | AMD64               |
-| [Java Shenandoah](https://github.com/medaria/ptero-pelican-containerimages#java-shenandoah-amd64arm64)           | AMD64, ARM64        |
+| [Java Shenandoah](https://github.com/medaria/ptero-pelican-containerimages#java-shipilev-experimental-amd64)        | AMD64               |
 | [Node.js](https://github.com/medaria/ptero-pelican-containerimages#nodejs-amd64arm64)                            | AMD64, ARM64        |
 | [Python](https://github.com/medaria/ptero-pelican-containerimages#python-amd64arm64)                             | AMD64, ARM64        |
 | [Sourcemod](https://github.com/medaria/ptero-pelican-containerimages#sourcemod-amd64)                            | AMD64               |
@@ -42,6 +42,18 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_20_corretto`
 - [Java 21 Amazon Corretto](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-corretto/21)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21_corretto`
+- [Java 22 Amazon Corretto](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-corretto/22)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_22_corretto`
+- [Java 23 Amazon Corretto](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-corretto/23)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_23_corretto`
+- [Java 24 Amazon Corretto](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-corretto/24)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_24_corretto`
+- [Java 25 Amazon Corretto](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-corretto/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25_corretto`
+- [Java 26 Amazon Corretto](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-corretto/26)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_26_corretto`
+- [Java 27 Amazon Corretto](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-corretto/27)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_27_corretto`
 
 ### Java Azul Zulu [AMD64/ARM64]
 
@@ -63,6 +75,14 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21_zulu`
 - [Java 22 Zulu](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-zulu/22)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_22_zulu`
+- [Java 23 Zulu](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-zulu/23)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_23_zulu`
+- [Java 24 Zulu](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-zulu/24)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_24_zulu`
+- [Java 25 Zulu](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-zulu/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25_zulu`
+- [Java 26 Zulu](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-zulu/26)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_26_zulu`
 
 ### Java Dragonwell [AMD64/ARM64]
 
@@ -74,6 +94,8 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_17_dragonwell`
 - [Java 21 Dragonwell](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-dragonwell/21)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21_dragonwell`
+- [Java 25 Dragonwell](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-dragonwell/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25_dragonwell`
 
 ### Java Eclipse Temurin [AMD64/ARM64]
 
@@ -95,10 +117,20 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21`
 - [Java 22](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java/22)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_22`
+- [Java 23](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java/23)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_23`
+- [Java 24](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java/24)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_24`
+- [Java 25](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25`
+- [Java 26](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java/26)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_26`
+- [Java 27](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java/27)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_27`
 
 ### Java GraalVM [AMD64/ARM64]
 
-**NOTE**: Java 8 is AMD64 only due to lack of support from upstream
+**NOTE**: Java 8 is AMD64 only due to lack of support from upstream. GraalVM Community does not publish container images for Java 26+ yet.
 
 - [Java 8 GraalVM-CE](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-graalvm/8)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_8_graalvm`
@@ -110,6 +142,12 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21_graalvm`
 - [Java 22 GraalVM JDK](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-graalvm/22)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_22_graalvm`
+- [Java 23 GraalVM JDK](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-graalvm/23)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_23_graalvm`
+- [Java 24 GraalVM JDK](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-graalvm/24)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_24_graalvm`
+- [Java 25 GraalVM JDK](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-graalvm/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25_graalvm`
 
 ### Java Liberica [AMD64/ARM64]
 
@@ -123,6 +161,16 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21_liberica`
 - [Java 22 Liberica](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-liberica/22)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_22_liberica`
+- [Java 23 Liberica](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-liberica/23)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_23_liberica`
+- [Java 24 Liberica](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-liberica/24)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_24_liberica`
+- [Java 25 Liberica](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-liberica/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25_liberica`
+- [Java 26 Liberica](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-liberica/26)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_26_liberica`
+- [Java 27 Liberica](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-liberica/27)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_27_liberica`
 
 ### Java OpenJ9 [AMD64/ARM64]
 
@@ -140,8 +188,20 @@ Navigate to `Admin Panel -> Nests -> Select your egg`. Add Docker image URL(s) f
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_20_openj9`
 - [Java 21 OpenJ9](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-openj9/21)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21_openj9`
+- [Java 22 OpenJ9](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-openj9/22)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_22_openj9`
+- [Java 23 OpenJ9](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-openj9/23)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_23_openj9`
+- [Java 24 OpenJ9](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-openj9/24)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_24_openj9`
+- [Java 25 OpenJ9](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-openj9/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25_openj9`
+- [Java 26 OpenJ9](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-openj9/26)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_26_openj9`
+- [Java 27 OpenJ9](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-openj9/27)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_27_openj9`
 
-### Java Shipilev Experimental [AMD64/ARM64]
+### Java Shipilev Experimental [AMD64]
 
 These are [shipilev experimental builds.](https://builds.shipilev.net/) If you're looking for Shenandoah GC, it is also by default shipped with at least Azul, Corretto and Temurin images starting with Java 11.
 
@@ -153,6 +213,12 @@ These are [shipilev experimental builds.](https://builds.shipilev.net/) If you'r
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_17_shenandoah`
 - [Java 21 Shenandoah](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-shenandoah/21)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_21_shenandoah`
+- [Java 25 Shenandoah](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-shenandoah/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_25_shenandoah`
+- [Java 26 Shenandoah](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-shenandoah/26)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_26_shenandoah`
+- [Java 27 Shenandoah](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/java-shenandoah/27)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:java_27_shenandoah`
 
 ### Node.js [AMD64/ARM64]
 
@@ -176,6 +242,14 @@ These are [shipilev experimental builds.](https://builds.shipilev.net/) If you'r
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:nodejs_21`
 - [Nodejs 22](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/nodejs/22)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:nodejs_22`
+- [Nodejs 23](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/nodejs/23)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:nodejs_23`
+- [Nodejs 24](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/nodejs/24)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:nodejs_24`
+- [Nodejs 25](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/nodejs/25)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:nodejs_25`
+- [Nodejs 26](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/nodejs/26)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:nodejs_26`
 
 ### Python [AMD64/ARM64]
 
@@ -195,8 +269,12 @@ These are [shipilev experimental builds.](https://builds.shipilev.net/) If you'r
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:python_3.11`
 - [Python 3.12](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/python/3.12)
   - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:python_3.12`
-- [Python 3.13-rc](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/python/3.13-rc)
-  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:python_3.13-rc`
+- [Python 3.13](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/python/3.13)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:python_3.13`
+- [Python 3.14](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/python/3.14)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:python_3.14`
+- [Python 3.15-rc](https://github.com/scriptvortexde/ptero-pelican-containerimages/tree/main/python/3.15-rc)
+  - `ghcr.io/scriptvortexde/ptero-pelican-containerimages:python_3.15-rc`
 
 ## Game specific
 

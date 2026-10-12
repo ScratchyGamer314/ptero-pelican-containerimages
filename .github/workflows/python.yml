@@ -34,7 +34,9 @@ jobs:
           - "3.10" # !WARNING: Tag must be enclosed in quotes or it will be interpreted as 3.1 instead of 3.10
           - 3.11
           - 3.12
-          - 3.13-rc
+          - "3.13"
+          - "3.14"
+          - 3.15-rc
     steps:
       - name: Git checkout for Github repository workspace
         uses: actions/checkout@v4
